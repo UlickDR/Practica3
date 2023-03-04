@@ -1,121 +1,136 @@
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container {
-    overflow: hidden;
-    height: 50em;
-    max-width: 85%;
-    margin: auto;
-  }
+  overflow: hidden;
+  height: 50em;
+  max-width: 85%;
+  margin: auto;
+}
 
-  nav {
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 100%;
-    padding: 1em;
-    background-color: skyblue;
-    transform: translateX(1em);
-    transition: 0.2s transform;
-  }
+nav {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 100%;
+  padding: 1em;
+  background-color: skyblue;
+  transform: translateX(1em);
+  transition: 0.2s transform;
+}
 
-  nav:hover,
-  nav:focus-within {
-    transform: translateX(100%);
-  }
-  
-  a {
-    white-space: pre;
-    color: black;
-  }
- 
-  .encabezado {
-    font-family: Consolas;
-    font-size: 25px;
-    text-align: center;
-    background-color: brown;
-    color: bisque;
-    height: auto;
-    padding: 0.5%;
-  }
+nav:hover,
+nav:focus-within {
+  transform: translateX(100%);
+}
 
-  .fondo {
-    background-color: burlywood;
-  }
-  
-  .encabezado {
-    font-family: Consolas;
-    font-size: 25px;
-    text-align: center;
-    background-color: brown;
-    color: bisque;
-    height: auto;
-    padding: 0.5%;
-  }
-  
-  .footer {
-    font-family: Consolas;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    background-color: coral;
-    width: 100%;
-    height: auto;
-    padding: 0.5%;
-  }
-  
-  .tabla {
-    margin: auto;
-    text-align: center;
-    width: 70%;
-    height: auto;
-    border-style: none;
-    border-radius: 15px;
-  }
-  
-  .boton {
-    text-decoration: none;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    background: green;
-    width: auto;
-    height: auto;
-    border-radius: 50px;
-    border: 3px solid black;
-    text-align: center;
-    box-shadow: -5px 1px 3px 0px rgb(248, 70, 0);
-    margin: 30px;
-  }
-  
-  .estiloCuerpo {
-    margin: 4%;
-  }
-  
-  .titulos {
-    font-family: Arial Black;
-    font-size: 70px;
-    text-align: left;
-  }
-  
-  .subTitulos {
-    font-family: Arial Black;
-    font-size: 40px;
-    text-align: left;
-    color: darkcyan;
-  }
-  
-  .texto {
-    font-family: Arial;
-    font-size: 30px;
-    text-align: justify;
-    color: rgb(93, 10, 10);
-  }
-  
-  .imagen {
-    float: right;
-    width: 20%;
-    height: 20%;
-  }
-  
-  
+a {
+  white-space: pre;
+  color: black;
+}
+
+.encabezado {
+  font-family: Consolas;
+  font-size: 25px;
+  text-align: center;
+  background-color: brown;
+  color: bisque;
+  height: auto;
+  padding: 0.5%;
+}
+
+.fondo {
+  background-color: burlywood;
+}
+
+.encabezado {
+  font-family: Consolas;
+  font-size: 25px;
+  text-align: center;
+  background-color: brown;
+  color: bisque;
+  height: auto;
+  padding: 0.5%;
+}
+
+.footer {
+  font-family: Consolas;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-color: coral;
+  width: 99%;
+  height: auto;
+  padding: 0.5%;
+}
+
+.tabla {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.boton {
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: green;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  border: 3px solid black;
+  text-align: center;
+  box-shadow: -5px 1px 3px 0px rgb(248, 70, 0);
+  margin: 30px;
+}
+
+.estiloCuerpo {
+  margin: 4%;
+}
+
+.titulos {
+  font-family: Arial Black;
+  font-size: 70px;
+  text-align: left;
+}
+
+.subTitulos {
+  font-family: Arial Black;
+  font-size: 40px;
+  text-align: left;
+  color: darkcyan;
+}
+
+.texto {
+  font-family: Arial;
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(93, 10, 10);
+}
+
+.imagen {
+  float: right;
+  width: 20%;
+  height: 20%;
+}
+
+p {
+  font-family: Consolas;
+  text-align: justify;
+  font-size: large;
+}
+
+.logosRSS{
+  width: 10px;
+  height: 20px;
+}
